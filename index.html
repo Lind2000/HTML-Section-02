@@ -1,57 +1,210 @@
 <!doctype html>
-<!-- Always add doc type-->
+<html lang="eng">
 
-<html lang="en">
+<head>
+    
+    <meta charset="utf-8"?> 
+      <meta name="viewport" content="=width=device-width, intial=scale=1">
+<meta name="description" content="Dough-Main Pizza Site">
+<meta name="robots" content="noindex, nofollow">
 
-<head> 
-    <!-- Meta Tag defines our character set -->
-        <meta charset ="utf-8">
-    
-    <!-- Meta Tag defining the size of the device-->
-    <meta name="viewport" content="width=device-width, intitial-scale=1">
-    
-    <!-- this meta tag describes the page-->
-    <meta name=description content="This is the code for week one!">
-    
-    <!--Meta tag determines if the website can be found via Search Engine--> <!-- THIS NEEDS TO BE CHANGED ONCE IT'S DONE-->
-    <meta name="robots" content="noindex, nofollow">
-    
-    <!-- This is the title of the document-->
-    <title>HTML Assignment 1</title>
+<Title> Assignment 2 </Title>
 
-    </head>
+    
+    <!-- Add Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+<!-- CCS -->
 
-    <body>
+<link rel="stylesheet" href="style.css">
     
-    <h1>Hi, This is one of my favourite songs!</h1>
     
+</head>
+    
+<body>
+    
+    <!-- Label the header based on what layout is meant to be -->
+    <header> 
         
-        <!-- Section 1 -->
-        <section>
+        <!-- Logo Container -->
+    <div>
+        <a href="index.html"> <img src="./Dough-Main-Logo.png" alt=" Dough-Main Pizza Logo "></a>
+        </div>
+        <!-- Naviagation Time -->
+
+    <nav>
+        <menu>
+            <li> <a href="#" target="_self"> Pizza</a></li>
+        <li> <a href="#" target="_self"> Bread</a></li>
+            <li> <a href="#" target="_self"> Pasta</a></li>
+            <li> <a href="#" target="_self"> Chicken</a></li>
+        </menu>
+        
+        </nav>
+        
+    </header>    
+    
+    <!-- hero image -->
+    
+    <section class="Hero">
+    <h1> Pizzas</h1>
+    </section>
+    
+    <div class="flex-content-container">
+    <main> 
+        <!-- Pizza Options -->
+        
+    <section>
+        <div>        <h2> Personal Pizzas </h2>
             
-            <h2> Eminem "Going Through Changes"</h2>
             
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/T6T_94qjp5g?si=_QLF94zy3B925wS7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-       
+            
+        <p>    We understand everyone likes different things on their pizzas. Why share?  </p>
+       </div>
         </section>
-           
+    
+        <!-- Personal Pizzas-->
         <section>
-        <h3> Quote from Eminem</h3>
-        <!-- Cite the source-->
-        <blockquote cite="www.biography.com/musicians/eminem">A lot of my rhymes are just to get chuckles out of people. Anybody with half a brain is going to be able to tell when I’m joking and when I’m serious.</blockquote></section>
+        <div class="pizza-types">
+            <p> Pepperoni Pizza</p>
+            <p> Veggie Pizza</p>
+            <p> Hawaiian Pizza</p>
+            
+            </div> </section>
+            
+            <section> <div class="personal-pizza-types"> <img src="Personal-Pepperoni-pizza.jpg" alt="Pepperoni Personal Pizza">
+                   
+        <img src="Veggie-Personal-Pizza.jpg" alt="Veggie Personal Pizza">
          
-         <aside>  <h3>Eminem Being Eminem</h3>
-<figure> <img src="5-56394_eminem-wallpaper.jpg" alt="Eminem showing the Middle Finger">
-    <figcaption>I've always admired his "don't give a f--k attitude. He has been through enough in his life, why care what others think?</figcaption>    
-            </figure></aside>
+            <img src="Hawaiian-Personal-Pizza.jpg" alt="Hawaiian Personal Pizza"></div></section>
+       
+            
+    <!-- Remaining Pizzas-->
+      <section>      
+<div>
+ <h2> Small Pizza</h2>   
+    <h2> Medium Pizza</h2>
+     <h2> Large Pizza</h2>
+    <h2>Deep Dish</h2>
+          </div></section>
+    
+    
+    <section>
+        <div>
+         <img src="Small-Pizza.jpg" alt="Small Pizza">
+        <img src="Medium-Pizza.jpg" alt="Medium Pizza">
+        <img src="Large-Pizza.jpg" alt="Large Pizza">
+        <img src="Deep-Dish-Pizza.jpg" alt="Deep Dish Pizza">
+        </div></section>
+    
+        <section>
+            <div class="pricing">
+           <p> $9.99 </p> 
+            <p> $12.99</p>
+            <p> $15.99 </p>
+            <p> $19.99</p>
+            </div>
+             </section>
+       
+    </main>
+    
+    <aside>
+    
+    <article>
+    
+        <figure><img src="Garlic-Bread.jpg" alt="Garlic Bread"></figure>
+        <button>Order Garlic Bread<a href="#" target="_self"></a></button>
+        </article>
+    <article>
+        <figure><img src="Alfredo-Pasta.jpg" alt="Alfredo Pasta"></figure>
+        <button>Order a Pasta Dish<a href="#" target="_self"></a></button>
+        </article>
+    
+    <article>
+      <figure> <img src="Chicken-Wings.jpg" alt="Chicken Wings"></figure>
+       <button>Order Chicken <a href="#" target="_self"></a></button>  
+        </article>
+    
         
+        <!-- Aside Options-->
         
-        <footer> <h6>This has been Lindzy Horton's Assignment 1</h6></footer>
+        </aside>
+     </div>
+<footer>
+    
+    <div>
+    <a href="index.html"> <img src="Dough-Main-Logo.png" alt="Dough-Main Logo"></a>
+    </div>
+    
+    
+    
+    <div>
+    <h4> Place Your Order</h4>
+    </div>
+    
+    
+
+    <form action="" method="post">
+        <div class="user-info">
+        <p><input name="name" placeholder="Your Name" type="text"></p>
+        <p> <input name="email" placeholder="Your Email" type="email"></p>
+        <p> <input name="telephone" placeholder="Your Phone Number" type="tel"> </p>
+            
+        </div>
+        <div class="personal-pizza">
+        <p> Pepperoni Personal Pizza <input name="personal pizza" placeholder="Pepperoni Personal Pizza" type="radio" ></p>
+         <p> Veggie Personal Pizza <input name="personal pizza" placeholder="Veggie Personal Pizza" type="radio" ></p>
+         <p> Hawaiian Personal Pizza <input name="personal pizza" placeholder="Hawaiian Personal Pizza" type="radio" ></p>
+        </div>
         
+        <div>  <p> Pepperoni Pizza 
+             <br>
+            SMALL  <input name="small1" placeholder=" Small Pepperoni Pizza" type="checkbox" >
+          MEDIUM <input name="medium1" placeholder=" Medium Pepperoni Pizza" type="checkbox" >
+           LARGE  <input name="large1" placeholder=" Large Pepperoni Pizza" type="checkbox" >
+         DEEP DISH    <input name="deepdish" placeholder=" Deep Dish Pepperoni Pizza" type="checkbox" >
+        <input name="quantity" placeholder="Quantity" type="number" min="0" max="5" >
         
+
         
+         <p> Veggie Pizza <br>
+         SMALL  <input name="small1" placeholder=" Small Veggie Pizza" type="checkbox" >
+          MEDIUM <input name="medium1" placeholder=" Medium Veggie Pizza" type="checkbox" >
+           LARGE  <input name="large1" placeholder=" Large Veggie Pizza" type="checkbox" >
+         DEEP DISH    <input name="deepdish" placeholder=" Deep Dish Veggie Pizza" type="checkbox" >
+             <input name="quantity" placeholder="Quantity" type="number" min="0" max="5"  >   
+        </p>
         
+
+ <p> Hawaiian Pizza
+     <br>
+        SMALL  <input name="small1" placeholder=" Small Hawaiian Pizza" type="checkbox" >
+          MEDIUM <input name="medium1" placeholder=" Medium Hawaiian Pizza" type="checkbox" >
+           LARGE  <input name="large1" placeholder=" Large Hawaiian Pizza" type="checkbox" >
+         DEEP DISH    <input name="deepdish" placeholder=" Deep Dish Hawaiian Pizza" type="checkbox" >
+        <input name="quantity" placeholder="Quantity" type="number" min="0" max="5"  >
+</p><p> <textarea placeholder="Special Requests"></textarea></p>
+        </div>
+       
+        <div class="submit-button">
+        
+    
+        <input type="submit" value="Place Order">
+        </div>
+        
+        </form>
+    
+    </footer>
+    
+    
     </body>
-    
-    
+
+
+
 </html>

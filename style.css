@@ -1,0 +1,289 @@
+
+body{
+    margin: 0px;
+    background-color: #f8f8f8;
+}
+s
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Poppins", sans-serif;
+}
+
+p, a, li, figcaption,{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+/** Page layout using flexbox **/
+
+header{
+   display: flex;
+   align-items: center;
+    background-color: #fcedcd;
+    height: 200px;
+}
+
+header > div{
+    width: auto;
+    height: 200px;
+    flex-grow: 1;
+}
+
+header > div  > a > img {
+    width: auto;
+    height: 100%;
+}
+
+header > nav > menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: auto;
+}
+
+header > nav > menu > li > a{
+    color: #9d1212;;
+    text-decoration: none;
+  text-underline-position: none;
+    padding: 15px;
+}
+header > nav > menu > li >a:hover{
+    color: white;
+     background-color: #9d1212;
+    text-decoration: none;
+    padding: 15px;
+}   
+
+    //** HERO Section **/
+    
+.Hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Hero{
+    background-image:url(hero-image-pizza.jpg);
+    height: 175px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Hero > h1{
+    display: flex;
+    color: white;
+    font-size: 65px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    }
+
+
+
+/** HEADER Section1**/
+
+.flex-content-container {
+    display: flex;
+}
+
+main {
+    width: 75%;
+}
+
+main > section{
+    display: flex;
+    height: 100px;
+    width: 75%;
+    align-items: center;
+    padding: 30px;
+    }
+
+main > section > div{
+    width: auto;
+    height: 25px;
+    padding: 30px;
+}
+
+main > section > div > img{
+    width: 200px;
+    height: 200px; 
+}
+
+
+main > section > div >h2 {
+    display: inline-flex;
+    color: #fcedcd;
+    font-size: 30px;
+   text-align: center;
+    background-color: #9d1212;
+    padding: 30px;
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    white-space: nowrap;
+    height: 40px;
+}
+
+main > section > div >img {
+   width: 200px;
+    height: 200px;    
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+main > section > div >p {
+   display: flex;
+    align-items: baseline;
+    justify-items: baseline;
+}
+
+
+.pizza-types{
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: -25px;
+}
+.pizza-types p {
+     padding-left: 55px;
+    padding-top: 25px;
+    padding-right: 55px;
+    padding-bottom: 25px;
+    font-size: 23px;
+    white-space:nowrap; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+section .personal-pizza-types{
+    height: 220px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    
+}
+
+/** Remaining Pizzas **/
+
+main > section + section > div{
+    display: inline-flex;
+    padding: 15px;
+
+}
+
+main > section + section > div > p{
+    font: bold;
+    color: #9d1212;
+}
+
+.pricing{
+   display: inline-flex;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: -25px; 
+}
+
+
+.pricing p{
+    
+    padding-left: 115px;
+    padding-top: 100px;
+    padding-right: 115px;
+    padding-bottom: 25px;
+    font-size: 23px;
+    white-space:nowrap; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+/** Aside Options **/
+aside{
+    width: 25%;
+       background-color: #9d1212;
+    padding: 2%, 0%;
+}
+
+aside > article{
+    width: 90%;
+    margin: auto auto 15px auto;
+    text-align: center;
+}
+
+aside > article > figure img{
+    width: 250px;
+    height: 250px;
+    margin: 0px;
+}
+
+aside > article > button{
+    padding: 20px;
+    border: none;
+    background-color: orange;
+    width: 200px;
+}
+
+
+
+aside > article > button a:hover{
+    padding: 20px;
+    background-color: yellow;
+    color: black;
+    border: none;
+}
+
+
+/** FOOTER **/
+
+footer{
+    display: flex;
+    background-color: #fcedcd;;
+    height: 600px;
+}
+
+footer > div > {
+display: flex;    
+    
+    
+}
+
+
+footer > div > h4 {
+    font: bold;
+    white-space: nowrap;
+    height: 25px;
+    padding: 20px;
+}
+
+footer > div > form{
+    display: flex;
+}
+
+
+footer > form > input, form textarea{
+    border: solid 2px orange;
+    padding: 15px;}
+
+.personal-pizza{
+    display: inline-flex;
+}
+
+::placeholder {
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+footer > form > input submit{
+     background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+    
+    
+}
+    
+}
